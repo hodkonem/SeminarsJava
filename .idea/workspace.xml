@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c404bff-af34-463a-89f0-60a98ccd6355" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lesson2/GroupTask1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson2/GroupTask2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GroupTask1">
+  <component name="RunManager" selected="Application.GroupTask2">
     <configuration name="GroupTask1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2.GroupTask1" />
       <module name="JavaSeminars" />
@@ -59,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson1.Task1" />
+    <configuration name="GroupTask2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2.GroupTask2" />
       <module name="JavaSeminars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson1.*" />
+          <option name="PATTERN" value="Lesson2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GroupTask2" />
         <item itemvalue="Application.GroupTask1" />
         <item itemvalue="Application.Task4" />
         <item itemvalue="Application.Task3" />
         <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.Task1" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686568247282</updated>
       <workItem from="1686568249564" duration="8352000" />
-      <workItem from="1686582929587" duration="4111000" />
+      <workItem from="1686582929587" duration="7606000" />
     </task>
     <servers />
   </component>
