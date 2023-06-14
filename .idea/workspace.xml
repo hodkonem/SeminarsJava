@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c404bff-af34-463a-89f0-60a98ccd6355" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lesson2/GroupTask2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson2/GroupTask3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson2/Task1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2/GroupTask2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/GroupTask2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +43,14 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GroupTask2">
+  <component name="RunManager" selected="Application.Task1">
     <configuration name="GroupTask1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2.GroupTask1" />
       <module name="JavaSeminars" />
@@ -72,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson1.Task2" />
+    <configuration name="GroupTask3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2.GroupTask3" />
       <module name="JavaSeminars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson1.*" />
+          <option name="PATTERN" value="Lesson2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson1.Task3" />
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2.Task1" />
       <module name="JavaSeminars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson1.*" />
+          <option name="PATTERN" value="Lesson2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task1" />
+        <item itemvalue="Application.GroupTask3" />
         <item itemvalue="Application.GroupTask2" />
         <item itemvalue="Application.GroupTask1" />
         <item itemvalue="Application.Task4" />
-        <item itemvalue="Application.Task3" />
-        <item itemvalue="Application.Task2" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +135,9 @@
       <option name="presentableId" value="Default" />
       <updated>1686568247282</updated>
       <workItem from="1686568249564" duration="8352000" />
-      <workItem from="1686582929587" duration="7606000" />
+      <workItem from="1686582929587" duration="11763000" />
+      <workItem from="1686597731260" duration="563000" />
+      <workItem from="1686674344726" duration="7000" />
     </task>
     <servers />
   </component>

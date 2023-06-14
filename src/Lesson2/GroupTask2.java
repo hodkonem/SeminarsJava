@@ -17,9 +17,11 @@ public class GroupTask2 {
         System.out.println(compressedStr); // выводим сжатую строку в консоль
     }
 
-
+    // Код метода compressString сжимает входную строку, заменяя повторяющиеся символы
+    // на символ и количество повторений.
     public static String compressString(String str) {
-        StringBuilder compressed = new StringBuilder();
+        StringBuilder compressed = new StringBuilder(); // Создаём пустой StringBuilder для сохранения сжатой строки и
+        // инициализируем переменную count с единицы.
         int count = 1;
 
         for (int i = 0; i < str.length(); i++) {
