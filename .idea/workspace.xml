@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c404bff-af34-463a-89f0-60a98ccd6355" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lesson2/GroupTask3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson2/Lg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson3/Task1Group.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson2/GroupTask2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/GroupTask2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Task1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,35 +50,22 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Task1">
-    <configuration name="GroupTask1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2.GroupTask1" />
-      <module name="JavaSeminars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupTask2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2.GroupTask2" />
-      <module name="JavaSeminars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Task1Group">
     <configuration name="GroupTask3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2.GroupTask3" />
+      <module name="JavaSeminars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2.Lg" />
       <module name="JavaSeminars" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +90,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson1.Task4" />
+    <configuration name="Task1Group" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson3.Task1Group" />
+      <module name="JavaSeminars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task4dop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson1.Task4dop" />
       <module name="JavaSeminars" />
       <extension name="coverage">
         <pattern>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task1Group" />
+        <item itemvalue="Application.Task4dop" />
+        <item itemvalue="Application.Lg" />
         <item itemvalue="Application.Task1" />
         <item itemvalue="Application.GroupTask3" />
-        <item itemvalue="Application.GroupTask2" />
-        <item itemvalue="Application.GroupTask1" />
-        <item itemvalue="Application.Task4" />
       </list>
     </recent_temporary>
   </component>
@@ -138,6 +138,8 @@
       <workItem from="1686582929587" duration="11763000" />
       <workItem from="1686597731260" duration="563000" />
       <workItem from="1686674344726" duration="7000" />
+      <workItem from="1686712764330" duration="9096000" />
+      <workItem from="1686803961396" duration="15000" />
     </task>
     <servers />
   </component>
