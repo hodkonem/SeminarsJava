@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c404bff-af34-463a-89f0-60a98ccd6355" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Lesson4/Task1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,13 +48,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Task2">
-    <configuration name="Lg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2.Lg" />
+  <component name="RunManager" selected="Application.Lesson4.Task1">
+    <configuration name="Lesson4.Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson4.Task1" />
       <module name="JavaSeminars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson2.*" />
+          <option name="PATTERN" value="Lesson4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2.Task1" />
+    <configuration name="Lg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2.Lg" />
       <module name="JavaSeminars" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson4.Task1" />
         <item itemvalue="Application.Task2" />
         <item itemvalue="Application.Task1Group" />
         <item itemvalue="Application.Task4dop" />
         <item itemvalue="Application.Lg" />
-        <item itemvalue="Application.Task1" />
       </list>
     </recent_temporary>
   </component>
@@ -139,6 +140,8 @@
       <workItem from="1686803961396" duration="15000" />
       <workItem from="1687241173883" duration="1068000" />
       <workItem from="1687256997507" duration="672000" />
+      <workItem from="1687787327691" duration="180000" />
+      <workItem from="1687979066695" duration="314000" />
     </task>
     <servers />
   </component>
