@@ -1,27 +1,57 @@
 package Lesson5;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Set<Notebook> notebooks = new HashSet<>();
+        List<NoteBook> notebooks = new ArrayList<>();
+        notebooks.add(new NoteBook("8GB", "256GB", "Windows 10", "Silver"));
+        notebooks.add(new NoteBook("16GB", "512GB", "MacOS", "Space Gray"));
+        notebooks.add(new NoteBook("8GB", "512GB", "Ubuntu 22.04", "Black"));
 
-        // Создание объектов и добавление в множество
-        Notebook notebook1 = new Notebook(8, 500, "Windows", "Silver");
-        notebooks.add(notebook1);
+        Scanner console = new Scanner(System.in);
+        System.out.println("Введите цифру, соответствующую необходимому критерию:");
+        System.out.println("1 - ОЗУ");
+        System.out.println("2 - Объем ЖД");
+        System.out.println("3 - Операционная система");
+        System.out.println("4 - Цвет");
+        int criteria = console.nextInt();
 
-        Notebook notebook2 = new Notebook(16, 1000, "MacOS", "Space Gray");
-        notebooks.add(notebook2);
+        String value;
+        switch (criteria) {
+            case 1:
+                System.out.println("Введите минимальное значение ОЗУ:");
+                value = console.next();
+                notebooks.stream()
+                        .filter(notebook -> notebook.getRam().equals(value))
+                        .forEach(System.out::println);
+                break;
+            case 2:
+                System.out.println("Введите минимальное значение объема жесткого диска:");
+                value = console.next();
+                notebooks.stream()
+                        .filter(notebook -> notebook.getHdd().equals(value))
+                        .forEach(System.out::println);
+                break;
+            case 3:
+                System.out.println("Введите операционную систему:");
+                value = console.next();
+                notebooks.stream()
+                        .filter(notebook -> notebook.getOs().equals(value))
+                        .forEach(System.out::println);
+                break;
+            case 4:
+                System.out.println("Введите цвет:");
+                value = console.next();
+                notebooks.stream()
+                        .filter(notebook -> notebook.getColor().equals(value))
+                        .forEach(System.out::println);
+                break;
+            default:
+                System.out.println("Вы выбрали некорректный критерий");
+        }
 
-        Notebook notebook3 = new Notebook(8, 1000, "Linux", "Black");
-        notebooks.add(notebook3);
-
-        Notebook notebook4 = new Notebook(16, 500, "Windows", "White");
-        notebooks.add(notebook4);
-
-        Notebook notebook5 = new Notebook(8, 500, "MacOS", "Silver");
-        notebooks.add(notebook5);
-
-        // Здесь ты можешь вызывать методы фильтрации и вывода подходящих ноутбуков
+        console.close();
     }
 }
